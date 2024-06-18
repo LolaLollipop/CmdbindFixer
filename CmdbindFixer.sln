@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CmdbindFixer", "CmdbindFixer\CmdbindFixer.csproj", "{C19E2143-0F24-4F71-BF12-CE42C104F469}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		EXILED|Any CPU = EXILED|Any CPU
+		NWAPI|Any CPU = NWAPI|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19E2143-0F24-4F71-BF12-CE42C104F469}.EXILED|Any CPU.ActiveCfg = EXILED|Any CPU
+		{C19E2143-0F24-4F71-BF12-CE42C104F469}.EXILED|Any CPU.Build.0 = EXILED|Any CPU
+		{C19E2143-0F24-4F71-BF12-CE42C104F469}.NWAPI|Any CPU.ActiveCfg = NWAPI|Any CPU
+		{C19E2143-0F24-4F71-BF12-CE42C104F469}.NWAPI|Any CPU.Build.0 = NWAPI|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A3C976D-1B12-465E-A909-9494D3DC9AC9}
+	EndGlobalSection
+EndGlobal

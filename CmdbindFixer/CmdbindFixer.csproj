@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<Nullable>enable</Nullable>
+		<Configurations>EXILED;NWAPI</Configurations>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Condition="'$(Configuration)' == 'EXILED'" Include="EXILED" Version="8.9.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>..\References\Assembly-CSharp-Publicized.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp-firstpass">
+			<HintPath>..\References\Assembly-CSharp-firstpass.dll</HintPath>
+		</Reference>
+		<Reference Include="PluginAPI">
+			<HintPath>..\References\PluginAPI.dll</HintPath>
+		</Reference>
+		<Reference Include="Mirror">
+			<HintPath>..\References\Mirror.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+		  <HintPath>..\References\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+		  <HintPath>..\References\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
