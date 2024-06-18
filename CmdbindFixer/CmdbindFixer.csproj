@@ -12,6 +12,13 @@
 		<PackageReference Condition="'$(Configuration)' == 'EXILED'" Include="EXILED" Version="8.9.6" />
 	</ItemGroup>
 
+	<PropertyGroup Condition="'$(Configuration)' == 'NWAPI'">
+		<TargetName>CmdbindFixer-NWAPI</TargetName>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)' == 'EXILED'">
+		<TargetName>CmdbindFixer-EXILED</TargetName>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<Reference Include="Assembly-CSharp">
 			<HintPath>..\References\Assembly-CSharp-Publicized.dll</HintPath>
